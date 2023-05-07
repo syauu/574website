@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Table</title>
+	<style>
+		body {
+			
+			margin: 0;
+			padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+		}
+		header {
+            font-family: 'Times New Roman', Times, serif, Helvetica;
+            font-size: large;
+			background-color: #2f5884;
+			color: #fff;
+			display: flex;
+			align-items: center;
+			padding: 5px;
+		}
+		nav {
+			flex-grow: 1;
+			text-align: center;
+		}
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			padding: 10px;
+			display: inline-block;
+		}
+		nav a:hover {
+			background-color: #b6cbe1;
+			color: #000000;
+		}
+		main {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: medium;
+			padding: 50px;
+            
+			
+		}
+		footer {
+            font-family: 'Times New Roman', Times, serif, Helvetica;
+            font-size: large;
+			background-color: #2f5884;
+			color: #fff;
+			padding: 15px;
+            margin-top: auto;
+			text-align: center;
+		}
+        table, th, td {border: 1px solid black;}
+	</style>
+</head>
+<body>
+	<header>
+		<a href="index.html" target=_self title="Go to welcome Page">
+            <img src="logo.png" alt="logo for assignment 1&2" Title="Welcome and rilex" width="220">
+        </a>
+
+		<nav>
+			<a href="biography.html" target=_self title="Go to Biography page">Biography</a>
+			<a href="resume.html" target=_self title="Go to Resume page">Resume</a>
+			<a href="timetable.html" target=_self title="Go to Time Table page">Time Table</a>
+			<a href="Galleries.html" target=_self title="Go to Galleries page">Galleries</a>
+			<a href="download.html">Download</a>
+			<a href="link.html">Links</a>
+			<a href="login.html">Login</a>
+			<a href="logout.html">Logout</a>
+		</nav>
+		<div>
+            <a href="https://uitm.edu.my/index.php/en/" target=_blank><img src="uitm.png" alt="UiTM" width="110"></a>
+			<a href="https://www.youtube.com/channel/UCuMzod62kKDX6FOhBvy9OvA" target=_blank><img src="youtube.jpg" alt="Youtube" width="60"></a>
+            <a href="https://www.instagram.com/syausaiii/" target=_blank><img src="insta.jpeg" alt="Instagram" width="46"></a>
+		</div>
+	</header>
+	<main>
+		<audio controls autoplay src="08_gamma.mp3"></audio>
+        <h2>March-September 2023</h2>
+		<table>
+			<tr>
+				<th>Time</th>
+				<th>Monday</th>
+				<th>Tuesday</th>
+				<th>Wednesday</th>
+				<th>Thursday</th>
+			</tr>
+			<tr>
+				<td>8:00am-10:00am</td>
+				<td><a href="#csc584">CSC 584</a></td>
+				<td><a href="#csc569">CSC 569</a></td>
+				<td><a href="#csc508">CSC 508</a></td>
+				<td><a href="#csc508">CSC 508</a></td>
+			</tr>
+			<tr>
+				<td>10:00am-12:00pm</td>
+				<td><a href="#csc574">CSC 574</a></td>
+				<td><a href="#csc645">CSC 645</a></td>
+				<td><a href="#csc584">CSC 584</a></td>
+				<td><a href="#csc574">CSC 574</a></td>
+			</tr>
+		</table>
+		
+		<section id="csc584">
+			<h3>CSC 584: ENTERPRISE PROGRAMMING</h3>
+			<ul>
+				<li>Lecturer: Madam Marshima</li>
+				<li>Room: CS Building, Room 101</li>
+				
+			</ul>
+		</section>
+        <section id="csc569">
+			<h3>CSC 569: PRINCIPLES OF COMPILERS</h3>
+			<ul>
+				<li>Lecturer: Dr Tajul</li>
+				<li>Room: CS Building, Room 142</li>
+				
+			</ul>
+		</section>
+		<section id="csc645">
+			<h3>CSC 645: ALGORITHM ANALYSIS AND DESIGN</h3>
+			<ul>
+				<li>Lecturer: Sir Ali Seman</li>
+				<li>Room: CS Building, Room 201</li>
+			</ul>
+		<section id="csc574">
+			<h3>CSC 574: DYNAMIC WEB APPLICATION DEVELOPMENT</h3>
+			<ul>
+				<li>Lecturer: Madam Aina Khadijah</li>
+				<li>Room: CS Building, Room 131</li>
+				
+			</ul>
+			
+		</section>
+		<section id="csc508">
+			<h3>CSC 508: DATA STRUCTURE</h3>
+			<ul>
+				<li>Lecturer: Dr Nurazzah</li>
+				<li>Room: CS Building, Room 231</li>
+				
+			</ul>
+			
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 My Website. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
